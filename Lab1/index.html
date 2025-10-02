@@ -1,1 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my_portfolio</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="top_section">Taruna Tewatia</h1>
+        <nav>
+            <ul type="square">
+                <li><a href="#section1">About</a></li>
+                <li><a href="#section2">Projects</a></li>
+                <li><a href="#section3">Technical Skills</a></li>
+                <li><a href="#section4">Contact</a></li>
+                <li><a href="#section5">My Profiles</a></li>
+            </ul>
+        </nav>
+        <h2>Welcome to my Portfolio</h2>
+        <p>Hello! I am a web development student. This is my personal portfolio website.<br> Here, you'll find my
+            projects, skills, and learning journey as I grow in the field of web development.<br> I created this space to showcase my work, share what I've learned, and connect with people who share the same passion for technology.</p>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2 id="section1">About Me</h2>
+                <img src="/profile.jpg" alt="profile_pic" length="100px" width="250px" border="2" title="profile_pic">
+                <p>I am passionate about learning web development and building creative projects.<br> I enjoy exploring new technologies, solving real-world problems through code, and continuously improving my skills to become a better developer.<br> I love turning ideas into interactive web experience and bringing creativity into every project I build.</p>
+            </article>
+            <article>
+                <h2 id="section2">My Projects</h2>
+                <ul type="square">
+                    <li><b>Portfolio Website : </b>A personal one page website to showcase my bio, skills and contact details.<br><img src="/portfolio.png" length="150px" width="150px" border="1" title="portfolio"></li>
+                    <li><b>User Form : </b>A form webpage with fields likelike name, email and messages for practicing from handling.<br><img src="/register_form.png" length="150px" width="150px" border="1" title="form"></li>
+                    <li><b>Semantic Blog : </b>A simple blog layout that shows the layouyt of Semantic tags.<br><img src="/semantic_blog.png" length="150px" width="150px" border="1" title="semantic_blog"></li>
+                    <li><b>Favourite Websites : </b>A webpage containg all the links of my favourite websites.<br><img src="/fav_websites.png" length="150px" width="150px" border="1" title="websites"></li>
+                </ul>
+            </article>
+            <article>
+                <h2 id="section3">Technical Skills</h2>
+                <table border="2" cellpadding="20px">
+                    <thead>
+                        <tr>
+                            <th>S.No.</th>
+                            <th>Skill</th>
+                            <th>Level</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1.</td>
+                            <td>HTML</td>
+                            <td>Beginner</td>
+                        </tr>
+                        <tr>
+                            <td>2.</td>
+                            <td>CSS</td>
+                            <td>Learning</td>
+                        </tr>
+                        <tr>
+                            <td>3.</td>
+                            <td>Python</td>
+                            <td>Learning</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </section>
+    </main>
+    <aside>
+        <h2 id="section4">Contact Me</h2>
+        <form method="get">
+            <label for="name">
+                Name : <input type="text" id="name" placeholder="Enter your Name">
+            </label><br><br>
+            <label for="male">
+                <input type="radio" id="male" name="gender">Male
+            </label>
+            <label for="female">
+                <input type="radio" id="female" name="gender">Female
+            </label>
+            <label for="others">
+                <input type="radio" id="others" name="gender">Others
+            </label><br><br>
+            <label for="email">
+                Email : <input type="email" id="email" placeholder="abc@123">
+            </label><br><br>
+            Message : <br>
+            <textarea placeholder="Enter your Message" rows="5" cols="50"></textarea><br><br>
+            <button type="submit">Submit</button><br><br>
+            <button type="reset">Reset</button>
+        </form>
+    </aside>
+    <footer>
+        <h3 id="section5">My Profiles</h3>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/taruna-tewatia-172203383?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Linkedin</a></li>
+            <li><a href="https://github.com/Taruna-115" target="_blank">Github</a></li>
+        </ul><br>
+        <a href="#top_section">Back to Top</a>
+    </footer>
+</body>
+
+</html>
