@@ -1,1 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my_portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <h1 id="top_section">My Portfolio</h1>
+        <nav>
+            <a href="#section1">About</a> &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="#section2">Technical Skills</a> &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="#section3">Projects</a> &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="#section4">Contact</a> &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="#section5">My Profiles</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <article1>
+                <h2  id="section1">About Me</h2>
+                <img src="/profile.jpg" alt="profile_pic" title="profile_pic">
+                <p>Hello! My name is Taruna Tewatia. I am a web development student. <br>I am passionate about learning web development and building creative projects.<br> I enjoy exploring new technologies, solving real-world problems through code, and continuously improving my skills to become a better developer.<br> I love turning ideas into interactive web experience and bringing creativity into every project I build.</p>
+            </article1>
+        </section>
+        <hr>
+        <section>
+            <article2>
+                <h2 id="section2">My Technical Skills</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>S.No.</th>
+                            <th>Skill</th>
+                            <th>Level</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1.</td>
+                            <td>HTML</td>
+                            <td>Beginner</td>
+                        </tr>
+                        <tr>
+                            <td>2.</td>
+                            <td>CSS</td>
+                            <td>Learning</td>
+                        </tr>
+                        <tr>
+                            <td>3.</td>
+                            <td>Python</td>
+                            <td>Learning</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article2>
+        </section>
+        <hr>
+        <section>
+            <article3>
+                <h2 id="section3">My Projects</h2>
+                <div class="project">
+                <b>Portfolio Website : </b><br><br>A personal one page website to showcase my bio, skills and contact
+                details.</div><br>
+                <div class="project">
+                <b>User Form : </b><br><br>A form webpage with fields likelike name, email and messages for practicing from handling.</div><br>
+                <div class="project">
+                <b>Semantic Blog : </b><br><br>A simple blog layout that shows the layouyt of Semantic tags.</div><br>
+                <div class="project">
+                <b>Favourite Websites : </b><br><br>A webpage containg all the links of my favourite websites.
+                </div><br>
+            </article3>
+        </section>
+        <hr>
+        <section>
+            <article4>
+                <h2 id="section4">Contact Me</h2>
+                <table>
+                <form method="get">
+                    <tr>
+                    <td><label for="name">
+                        Name : </td>
+                    <td><input type="text" id="name" placeholder="Enter your Name">
+                    </label></td>
+                    </tr>
+                    <tr>
+                    <td><label for="email">
+                        Email : </td>
+                    <td><input type="email" id="email" placeholder="abc@123">
+                    </label></td>
+                    </tr>
+                    <tr>
+                    <td>Message :</td>
+                    <td><textarea placeholder="Enter your Message" rows="5" cols="50"></textarea></td>
+                    </tr>
+                    <tr>
+                    <td colspan="2"><button type="submit">Send</button></td>
+                    </tr>
+                </form>
+                </table>
+            </article4>
+        </section>
+        <hr>
+    </main>
+
+    <footer>
+        <h3 id="section5">My Profiles</h3>
+        <a href="https://www.linkedin.com/in/taruna-tewatia-172203383?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            target="_blank">Linkedin</a> &nbsp; &nbsp; &nbsp;
+        <a href="https://github.com/Taruna-115" target="_blank">Github</a>
+        <br><br>
+        <a href="#top_section" id="fixed">Back to Top</a>
+    </footer>
+</body>
+
+</html>
