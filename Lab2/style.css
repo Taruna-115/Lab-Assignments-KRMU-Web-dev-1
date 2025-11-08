@@ -1,0 +1,99 @@
+/* body styles */
+body{
+    text-align: center;
+    background-color: rgb(251, 236, 219);
+    font-family: "Roboto", sans-serif;
+}
+
+/* header styles */
+header{
+    background-color: rgb(6, 6, 87);
+    color: rgb(255, 255, 255);
+    padding: 1px 5px 5px 5px;
+}
+
+/* image styles */
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid rgb(6, 6, 87);
+    box-shadow: 4px 5px 5px rgb(66, 66, 188);
+  }
+
+/* link styles */
+a{
+  display: inline-block;
+  padding: 10px 20px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(6, 6, 87);
+  text-decoration: none;                /* to remove underline */
+  border-radius: 6px;                   /* rounded corners */
+  transition: all 0.3s ease;            /* smooth hover animation */
+}
+a:hover {
+  background-color: #007bff;          /* light-blue background on hover */
+  color: pink;                        /* pink text on hover */
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* table styles */
+table, tr, th, td{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-collapse: collapse;
+    border: 2px solid rgb(6, 6, 87);
+    width: 600px;
+}
+tr th{
+    background-color: rgb(6, 6, 87);
+    color: rgb(255, 255, 255);
+}
+
+/* section styles */
+section{
+    margin: 20px 10px;
+    padding: 5px 10px;
+}
+
+/* footer styles */
+footer :hover{
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* button styles */
+button{
+  background-color: darkblue;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border-radius: 15%;
+  box-shadow: 0 6px 16px rgb(48, 1, 91);
+}
+
+/* project section styles */
+.project{
+        background-color: rgb(249, 249, 247);
+        padding: 20px 50px;
+        border: 1px solid black;
+        }
+
+/* positioning */
+#fixed{
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        }
+
+/* horizontal line styles */
+hr{
+  border: 1px solid black;
+}
+
+article3 :hover{
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgb(48, 1, 91);
+}
