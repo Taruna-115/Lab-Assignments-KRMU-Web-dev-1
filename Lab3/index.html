@@ -1,1 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my_portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body id="slide_left">
+    <header>
+        <h1 id="top_section">My Portfolio</h1>
+        <nav>
+            <a href="#section1">About</a>  
+            <a href="#section2">Technical Skills</a>
+            <a href="#section3">Projects</a>
+            <a href="#section4">Contact</a>
+            <a href="#section5">Copyright</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="left_content">
+                <h2>Hi! I am<br>
+                    <span class="color_animation">Front-end Developer</span></h2>
+                <p>Building ideas into reality and turning imagination into interactive design.</p>
+            </div>
+                <div class="right_content">
+                    <img src="/profile.jpg" alt="profile_pic" title="profile_pic">
+                </div>
+        </section>
+
+        <section>
+            <article>
+                <h2  id="section1">About Me</h2>
+                <p>Hello! My name is Taruna Tewatia and I am currently learning web development. This is my first portfolio website where I showcase my passion for creating interactive and responsive web pages. I am a student at K.R. Mangalam University, pusuing a B.Tech degree, and I am deeply interested in technology and coding. I love exploring new skills everyday, snd I always aim to improve my knowledge in the field of web development. With a hardworking and consistent mindset, I am determined to grow as a developer and build creative projects that make a real impact.</p>
+            </article>
+        </section>
+        
+        <section>
+            <h2 id="section2">My Technical Skills</h2>
+            <article class="grid_usage1">
+                <div class="skills">
+                <b>HTML : </b><br>Beginner</div>
+                <div class="skills">
+                <b>CSS : </b><br>Beginner</div>
+                <div class="skills">
+                <b>Javascript : </b><br>Learning</div>
+            </article>
+        </section>
+        
+        <section>
+            <h2 id="section3">My Projects</h2>
+            <article class="grid_usage2">
+                <div class="project">
+                    <b>Portfolio Website :</b><br><br>
+                    A personal one page website to showcase my bio, skills and contact details.
+                </div>
+                <div class="project">
+                    <b>User Form :</b><br><br>
+                    A form webpage with fields like name, email and messages for practicing form handling.
+                </div>
+                <div class="project">
+                    <b>Semantic Blog :</b><br><br>
+                    A simple blog layout that shows the layout of semantic tags.
+                </div>
+                <div class="project">
+                    <b>Favourite Websites :</b><br><br>
+                    A webpage containing all the links of my favourite websites.
+                </div>
+            </article>
+        </section>
+
+        
+        <section>
+            <h2 id="section4">Contact Me</h2>
+            <div id="form_center">
+            <article id="form_style">
+                <form method="get">
+                    <label for="name">Name :<br>
+                    <input type="text" id="name" placeholder="Enter your Name">
+                    </label><br><br>
+                    <label for="email">Email :<br>
+                    <input type="email" id="email" placeholder="abc@123">
+                    </label><br><br>
+                    Message :<br>
+                    <textarea placeholder="Enter your Message" rows="5" cols="50"></textarea><br><br>
+                    <button type="submit">Send</button>
+                </form>
+            </article>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <h2 id="section5">Copyright</h2>
+        <p>©2025 Taruna Tewatia...All rights reserved</p>
+        <br><br>
+        <a href="#top_section" id="fixed">Back to Top</a>
+    </footer>
+</body>
+
+</html>
