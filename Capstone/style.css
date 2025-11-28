@@ -535,7 +535,7 @@ body{
 
 /* Accessibility helpers */
 .visually-hidden{
-  position: absolute !important;
+  position: absolute;
   height: 1px; 
   width: 1px; 
   overflow: hidden; 
@@ -611,4 +611,5 @@ body{
   .container{ 
     padding-inline: 1rem; 
 }
+
 }
