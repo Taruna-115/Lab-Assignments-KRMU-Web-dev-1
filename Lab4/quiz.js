@@ -6,8 +6,8 @@ const quizQuestions = [
   { question: "What is the capital of India?", answer: "New Delhi" },
   { question: "Which language is used for web styling?", answer: "CSS" },
   { question: "What does JS stand for (short)?", answer: "javascript" },
-  { question: "What tag is used for a paragraph in HTML?", answer: "p" },
-  { question: "What symbol starts a single-line comment in JavaScript?", answer: "//" }
+  { question: "Which tag is used for a paragraph in HTML?", answer: "p" },
+  { question: "Which symbol starts a single-line comment in JavaScript?", answer: "//" }
 ];
 
 // Function to run the quiz:
@@ -33,3 +33,4 @@ function runQuiz() {
 }
 
 runQuiz();
+
